@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+body{
+    background-image: url(../img/background.jpg);
+    backdrop-filter: brightness(0.2);
+    padding: 0% 2.5%;
+}
+.perfil{
+    
+    height: 450px;
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    
+}
+.titulo{
+  font-size: large;  
+  width: 38%;
+  padding: 7% 4%;
+}
+    .titulo img{
+        width: 100%;
+    }
+    .titulo p {
+        margin-top: 20px;
+    }
+
+.marc{
+   
+}
+
+ 
