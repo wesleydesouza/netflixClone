@@ -1,34 +1,74 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 body{
     background-image: url(../img/background.jpg);
     backdrop-filter: brightness(0.2);
-    padding: 0% 2.5%;
+    padding: 0% 3%;
 }
+.menu{
+    padding-top: 25px;
+    margin-bottom: 25px;
+}
+
+    .menu img{
+        width: 10.5vw;
+    }
 .perfil{
-    
     height: 450px;
+    margin-bottom: 50px;
     background-image: url(../img/banner.png);
+    background-size: 100%;
     background-repeat: no-repeat;
     
 }
 .titulo{
-  font-size: large;  
+  font-size: 1em;  
   width: 38%;
   padding: 7% 4%;
 }
     .titulo img{
         width: 100%;
+        
     }
-    .titulo p {
+    .titulo p{
+        font-size: 1.5vw;
         margin-top: 20px;
     }
-
-.marc{
-   
+    .titulo h1{
+        font-size: 2vw;
+    }
+.text-color{
+    color: #949494
 }
 
- 
+.figure-group{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+    .figure-group img{
+        width: 19%;
+        filter: brightness(70%);
+        border-bottom: -100px solid black;
+        transition: 1s;
+    }
+        .figure-group img:hover{
+            
+            filter: brightness(100%);
+        }
+
+.footer{
+    text-align: center;
+    margin-top: 100px;
+    
+}
+/*.marc{
+   border: 1px solid red;
+}*/
+
+/*https://tecnoblog.net/wp-content/uploads/2015/08/netflix-home.png*/
