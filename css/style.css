@@ -17,7 +17,6 @@ body{
         width: 10.5vw;
     }
 .perfil{
-    height: 450px;
     margin-bottom: 50px;
     background-image: url(../img/banner.png);
     background-size: 100%;
@@ -27,18 +26,75 @@ body{
 .titulo{
   font-size: 1em;  
   width: 38%;
+  height: auto;
   padding: 7% 4%;
+  background-image: linear-gradient(90deg, black, black, black,black, black,rgba(0, 0, 0, 0.884), rgba(0, 0, 0, 0));
+  color: white
 }
     .titulo img{
         width: 100%;
         
     }
     .titulo p{
+        width: 35vw;
         font-size: 1.5vw;
         margin-top: 20px;
     }
     .titulo h1{
         font-size: 2vw;
+    }
+.flexBtn{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    
+    height: 6vh;
+    width: 10vw;
+    margin-top: 20px;
+    border: none;
+    border-radius: 2px;
+    font-weight:700;
+}
+    .btn p{
+        margin-top: 0;
+        font-size: 1.2vw;
+    }    
+    .btn img{
+        width: 2vw;
+        
+    }
+#playBtn{
+    display:flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #e50914;
+    text-decoration: none;
+}
+    #playBtn:hover{
+        background-color: #e0313a;
+    }
+a:visited {
+    text-decoration: none;
+    color: #000000;
+  }
+
+#plusBtn{
+    display:flex;
+    cursor: pointer;
+    align-items: center;
+    border:1px solid white;
+    justify-content: space-evenly;
+    color:white;
+    background-color: #ff000000;
+}
+    #plusBtn p{
+        font-size: 1vw;
+    }
+    #plusBtn:hover{
+        background-color: #fcfcfc15;
     }
 .text-color{
     color: #949494
@@ -58,7 +114,7 @@ body{
         transition: 1s;
     }
         .figure-group img:hover{
-            
+            cursor: pointer;
             filter: brightness(100%);
         }
 
@@ -67,8 +123,6 @@ body{
     margin-top: 100px;
     
 }
-/*.marc{
-   border: 1px solid red;
-}*/
+
 
 /*https://tecnoblog.net/wp-content/uploads/2015/08/netflix-home.png*/
