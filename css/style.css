@@ -8,7 +8,7 @@ body{
     background-image: url(../img/background.jpg);
     backdrop-filter: brightness(0.2);
     padding: 0% 3%;
-
+    
 }
 
 .menu{
@@ -125,7 +125,7 @@ a:visited {
     text-align: center;
     margin-top: 100px;
     font-size: 1vw;
-    
+    padding-bottom: 20px;
 }
 
 
