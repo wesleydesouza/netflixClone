@@ -3,11 +3,14 @@
     margin: 0;
     font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
 }
+
 body{
     background-image: url(../img/background.jpg);
     backdrop-filter: brightness(0.2);
     padding: 0% 3%;
+
 }
+
 .menu{
     padding-top: 25px;
     margin-bottom: 25px;
@@ -56,10 +59,10 @@ body{
     border: none;
     border-radius: 2px;
     font-weight:700;
+    font-size: 1.2vw;
 }
     .btn p{
         margin-top: 0;
-        font-size: 1.2vw;
     }    
     .btn img{
         width: 2vw;
@@ -121,6 +124,7 @@ a:visited {
 .footer{
     text-align: center;
     margin-top: 100px;
+    font-size: 1vw;
     
 }
 
