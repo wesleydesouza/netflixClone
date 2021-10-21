@@ -123,6 +123,7 @@ body{
     background-color: #e50914;
     text-decoration: none;
     font-size: 1.2vw;
+    color: #000000;
 }
     #playBtn:hover{
         background-color: #e0313a;
