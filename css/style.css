@@ -114,10 +114,7 @@ body{
         width: 2vw;
         
     }
-    .btn:visited {
-            text-decoration: none;
-            color: #000000;
-        }
+    
 #playBtn{
     display:flex;
     cursor: pointer;
@@ -129,6 +126,10 @@ body{
 }
     #playBtn:hover{
         background-color: #e0313a;
+    }
+    #playBtn:visited {
+        
+        color: #000000;
     }
 
 #plusBtn{
