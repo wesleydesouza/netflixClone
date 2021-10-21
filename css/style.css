@@ -19,6 +19,52 @@ body{
     .menu img{
         width: 10.5vw;
     }
+
+.menuFlex{
+    height: 40px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.font-size{
+    font-size: 1vw;
+}
+
+.assineBtn{
+    padding: 10px 17px;
+    cursor: pointer;
+    background-color: #e50914;
+    text-decoration: none;
+    font-weight:lighter !important;
+    color: white !important;
+    font-size: 1vw !important;
+}
+    .assineBtn:hover{
+        background-color: #e0313a;
+    }
+
+.entrarBtn{
+    padding: 9px 16px;
+    cursor: pointer;
+    align-items: center;
+    border:1px solid #ffffff !important;
+    color:#ffffff !important;
+    background-color: #ff000000;
+    text-decoration: none;
+    font-weight: lighter !important;
+    font-size: 1vw !important;
+}
+    .entrarBtn:visited {
+        text-decoration: none;
+        color: #ffffff;
+    }
+    .entrarBtn:hover{
+        background-color: #fcfcfc15;
+    }
+    
+
 .perfil{
     margin-bottom: 50px;
     background-image: url(../img/banner.png);
@@ -68,6 +114,10 @@ body{
         width: 2vw;
         
     }
+    .btn:visited {
+            text-decoration: none;
+            color: #000000;
+        }
 #playBtn{
     display:flex;
     cursor: pointer;
@@ -75,14 +125,11 @@ body{
     justify-content: space-evenly;
     background-color: #e50914;
     text-decoration: none;
+    font-size: 1.2vw;
 }
     #playBtn:hover{
         background-color: #e0313a;
     }
-a:visited {
-    text-decoration: none;
-    color: #000000;
-  }
 
 #plusBtn{
     display:flex;
@@ -92,10 +139,9 @@ a:visited {
     justify-content: space-evenly;
     color:white;
     background-color: #ff000000;
+    padding: 0px 5px;
+    font-size: 1vw;
 }
-    #plusBtn p{
-        font-size: 1vw;
-    }
     #plusBtn:hover{
         background-color: #fcfcfc15;
     }
