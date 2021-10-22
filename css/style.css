@@ -7,11 +7,12 @@
 body{
     background-image: url(../img/background.jpg);
     backdrop-filter: brightness(0.2);
-    padding: 0% 3%;
+    padding-left: 3%;
     
 }
 
 .menu{
+    padding-right: 3%;
     padding-top: 25px;
     margin-bottom: 25px;
 }
@@ -19,7 +20,9 @@ body{
     .menu img{
         width: 10.5vw;
     }
-
+.logoMobile{
+    display: none;
+}
 .menuFlex{
     height: 40px;
     color: white;
@@ -92,6 +95,10 @@ body{
     .titulo h1{
         font-size: 2vw;
     }
+.tituloMobile{
+    display: none
+}
+
 .flexBtn{
     width: 60%;
     display: flex;
@@ -138,7 +145,7 @@ body{
     cursor: pointer;
     align-items: center;
     border:1px solid white;
-    justify-content: space-evenly;
+    justify-content: space-around;
     color:white;
     background-color: #ff000000;
     padding: 0px 5px;
@@ -176,5 +183,91 @@ body{
     padding-bottom: 20px;
 }
 
+@media (max-width: 768px){
+   span{
+       display: none;
+   } 
+   .menu{
+        margin-bottom: 10px;
+        padding-top: 10px;
+   }
 
+   .flexBtn{
+       width: 72%;
+   }
+   #plusBtn, #playBtn{
+       width: 13vw;
+       height: 30px;
+       font-size: 1.4vw;
+   }
+   .entrarBtn, .assineBtn{
+       font-size: 1.5vw !important;
+   }
+   .footer{
+        font-size: 10px;
+   }
+}
+
+@media (max-width: 425px){
+    body{
+        background-image: none;
+        backdrop-filter: none;
+        background-color: rgba(23,23,22);
+    }
+    .menu{
+        padding-right: 0;
+        padding-top: 10px;
+        margin-bottom: 10px;
+        
+    }
+        .menu img{
+           display: none;
+
+        }
+    .logoMobile{
+        display: inline !important;
+        width: 50px !important;
+    }
+    .entrarBtn, .assineBtn{
+        font-size: 12px !important;
+        margin-right: 9px;
+    }
+    .perfil{
+        height: auto !important;
+    }
+    .perfil{
+      height: 240px !important;
+      margin-bottom: -100px;
+      background-image: url(../img/banner.png);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      
+  }
+    .tituloMobile{
+        display: flex;
+        flex-direction: column;
+        font-size: 1em;  
+        width: 100%;
+        height: auto;
+        padding: 7% 0%;
+        background-image: linear-gradient(0deg, rgba(23,23,23,.92), rgba(23,23,23,.92), rgba(23,23,23,.92),hsla(0, 0%, 0%, 1), rgba(0, 0, 0, 1),rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+        color: white
+      }
+          .tituloMobile img{
+              width: 100%;
+              
+          }
+          .tituloMobile p{
+              width: 35vw;
+              font-size: 1.5vw;
+              margin-top: 20px;
+          }
+          .tituloMobile h1{
+              font-size: 2vw;
+          }
+      .titulo{
+          display: none;
+      }
+    
+    }
 /*https://tecnoblog.net/wp-content/uploads/2015/08/netflix-home.png*/
