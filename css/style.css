@@ -229,6 +229,7 @@ body{
         width: 50px !important;
     }
     .entrarBtn, .assineBtn{
+        
         font-size: 12px !important;
         margin-right: 9px;
     }
@@ -249,25 +250,61 @@ body{
         font-size: 1em;  
         width: 100%;
         height: auto;
-        padding: 7% 0%;
-        background-image: linear-gradient(0deg, rgba(23,23,23,.92), rgba(23,23,23,.92), rgba(23,23,23,.92),hsla(0, 0%, 0%, 1), rgba(0, 0, 0, 1),rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+        padding-top: 13%;
+        padding-left: 3%;
+        background-image: linear-gradient(0deg, rgba(23,23,22,1), rgba(23,23,22,1), rgba(23,23,22,1),rgba(23, 23, 23, 1), rgba(23,23,23, 1),rgba(23,23,23, 1),  rgba(23,23,23, 1),  rgba(23,23,23, 1),  rgba(0,0,0, 0));
         color: white
       }
           .tituloMobile img{
-              width: 100%;
+              width: 85%;
               
           }
           .tituloMobile p{
-              width: 35vw;
-              font-size: 1.5vw;
+              width: 93%;
+              font-size: 5vw;
               margin-top: 20px;
           }
           .tituloMobile h1{
-              font-size: 2vw;
+              font-size: 5vw;
           }
       .titulo{
           display: none;
       }
-    
+      .flexBtn{
+        width: 95%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center
     }
+    #plusBtn, #playBtn{
+        justify-content: space-evenly;
+        width: 100%;
+        height: 7vh;
+        font-size: 5vw;
+    }
+        #plusBtn img{
+            width: 8.5%;
+            margin-left: 3%;
+        }
+        #playBtn img{
+            width: 8.5%;
+        }
+
+    .entrarBtn, .assineBtn{
+        font-size: 1.5vw !important;
+    }
+
+    .marginMobile{
+        margin-top: 50px;
+    }
+
+    .figure-group{
+        flex-direction: column;
+        align-items: center;
+    }
+        .figure-group img{
+            width: 90%;
+            margin-top: 10px;
+        }
+}
 /*https://tecnoblog.net/wp-content/uploads/2015/08/netflix-home.png*/
