@@ -248,7 +248,7 @@ body{
         display: flex;
         flex-direction: column;
         font-size: 1em;  
-        width: 100%;
+        width: 97%;
         height: auto;
         padding-top: 13%;
         padding-left: 3%;
@@ -289,10 +289,6 @@ body{
         #playBtn img{
             width: 8.5%;
         }
-
-    .entrarBtn, .assineBtn{
-        font-size: 1.5vw !important;
-    }
 
     .marginMobile{
         margin-top: 50px;
